@@ -1,4 +1,12 @@
-// import React, { useEffect } from "react";
+import React, { useEffect } from "react";
+import { MetaMaskInpageProvider } from "@metamask/providers";
+
+declare global {
+  interface Window{
+    ethereum:MetaMaskInpageProvider
+  }
+}
+
 // import getBalance from "./helpers/getBalance";
 // import requestAccounts from "./helpers/requestAccounts";
 

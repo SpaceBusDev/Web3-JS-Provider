@@ -8,7 +8,7 @@ const styles = {
     color: "rgb(46, 46, 46)",
     fontWeight: 800
   }
-} as const;
+};
 
 const Status = ({
   isActivating,
